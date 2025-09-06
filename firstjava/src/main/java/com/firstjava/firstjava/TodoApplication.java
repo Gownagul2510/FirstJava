@@ -4,10 +4,9 @@ import org.springframework.boot.SpringApplication;
 import org.springframework.boot.autoconfigure.SpringBootApplication;
 
 @SpringBootApplication
-public class FirstjavaApplication {
+public class TodoApplication {
 
-	public static void main(String[] args) {
-		SpringApplication.run(FirstjavaApplication.class, args);
-	}
-
+    public static void main(String[] args) {
+        SpringApplication.run(TodoApplication.class, args);
+    }
 }
